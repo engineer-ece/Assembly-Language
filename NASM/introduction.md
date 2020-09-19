@@ -51,24 +51,6 @@
 ## Hello.asm code
 
 
-<br>section .text
-<br> global _start                         ;must be declared for linker (ld)
-
-<br>_start:                                ;tells linker entry point
-<br>  mov edx,len                          ;message length
-<br>  mov ecx,msg                          ;message to write
-<br>  mov ebx,1                            ;file descriptor (stdout)
-<br>  mov eax,4                            ;system call number (sys_write)
-<br>  int 0x80                             ;call kernal
-
-<br>  mov eax,1                            ;system call number (sys_exit)
-<br>  int 0x80                             ;call kernal
-
- 
-<br>section .data
-<br>msg db 'Hello Gobal Krishnan V', 0xa   ;string to be printer
-<br>len equ $ - msg                        ;length of the string
-
     
 ## Compile and Run
     
