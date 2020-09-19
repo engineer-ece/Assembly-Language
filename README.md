@@ -2,7 +2,7 @@
  ## NASM 
 
 1. Introduction
-2. Environmental Setup
+2. Environmental Setup - sudo apt-get install nasm
 3. Basic Syntax
 4. Memory Segments
 5. Registers
