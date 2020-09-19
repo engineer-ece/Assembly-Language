@@ -28,7 +28,8 @@
    
  ## Basic Features of PC Hardware
     
-    1. The main internal hardware of a PC consists of processor, memory, and registers.
+   
+   1. The main internal hardware of a PC consists of processor, memory, and registers.
     2. Registers are processor components that hold data and address.
     3. To execute a program, the system copies it from the external device into the internal memory.
     4. The processor executes the program instructions.
@@ -38,9 +39,9 @@
     8. So, the parity bit is used to make the number of bits in a byte odd.
     9. If the parity is even, the system assumes that there had been a parity error (through rare), which might have been caused due to hardware fault or electrical disturbance.
     
-    The processor supports the following data sizes - 
+   The processor supports the following data sizes - 
       
-       1. Word       : a 2-byte data item
+   1. Word       : a 2-byte data item
        2. DoubleWord : a 4-byte (32 - bit) data item
        3. QuadWord   : an 8-byte (64 - bit) data item
        4. Paragraph  : a 16-byte (128 - bit) data item
