@@ -47,9 +47,35 @@
    4. Paragraph  : a 16-byte (128 - bit) data item
    5. Kilobyte   : 1024 bytes.
    6. Megabyte   : 1,048,576 bytes.
+
+## Hello.asm code
+
+
+section .text
+ global _start                         ;must be declared for linker (ld)
+
+_start:                                ;tells linker entry point
+  mov edx,len                          ;message length
+  mov ecx,msg                          ;message to write
+  mov ebx,1                            ;file descriptor (stdout)
+  mov eax,4                            ;system call number (sys_write)
+  int 0x80                             ;call kernal
+
+  mov eax,1                            ;system call number (sys_exit)
+  int 0x80                             ;call kernal
+
+ 
+section .data
+msg db 'Hello Gobal Krishnan V', 0xa   ;string to be printer
+len equ $ - msg                        ;length of the string
+
     
 ## Compile and Run
     
    1. nasm -f elf hello.asm && ld -s -o hello hello.o && ./hello (32 bit)
    2. nasm -f elf64 hello.asm && ld -s -o hello hello.o && ./hello (64 bit)
    3. nasm -fmacho64 hello.asm && gcc hello.o && ./hello.out
+
+## Output
+
+Hello Gobal Krishnan V
