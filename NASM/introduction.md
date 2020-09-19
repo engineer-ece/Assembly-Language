@@ -3,8 +3,8 @@
 ## What is Assembly Language ?
     
 
-     <p>Each personal computer has a microprocessor that manages the  computer's arithmetical, logical and control activities.</p>
+   ##### Each personal computer has a microprocessor that manages the  computer's arithmetical, logical and control activities.
     
-     <p>Each family of processor has its own set of instructions for handling various operations such as getting input from keyboard, displaying information on screen and performing various other jobs. These set of instructions are called 'machine language instructions'.</p>
+   #####   Each family of processor has its own set of instructions for handling various operations such as getting input from keyboard, displaying information on screen and performing various other jobs. These set of instructions are called 'machine language instructions'.
 
       
