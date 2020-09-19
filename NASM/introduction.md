@@ -8,7 +8,7 @@
    ##### A processor understands only machine language instructions, which are strings of 1's and 0's. However, machine language is too obscure and complex for using in software development. So, the low-level assembly language is designed for a specific family of processors that represents various instructions in symbolic code and a more understandable form.
    
    
-## Advantages of Assembly Language (*_*)
+## Advantages of Assembly Language
   
    Having an understanding of assembly language makes one aware of - 
    
