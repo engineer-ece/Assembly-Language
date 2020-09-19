@@ -50,7 +50,7 @@
 
 ## Hello.asm code
 
-<a target="_blank" href="https://github.com/engineer-ece/Assembly-Language/blob/master/NASM/Hello/hello.asm">click here</a>
+<a href="https://github.com/engineer-ece/Assembly-Language/blob/master/NASM/Hello/hello.asm" target="_blank">click here</a>
 
     
 ## Compile and Run
