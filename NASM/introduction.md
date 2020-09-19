@@ -48,3 +48,8 @@
    5. Kilobyte   : 1024 bytes.
    6. Megabyte   : 1,048,576 bytes.
     
+## Compile and Run
+    
+   nasm -f elf hello.asm
+   ld -s -o hello hello.o
+   ./hello
