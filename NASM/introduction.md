@@ -51,4 +51,4 @@
 ## Compile and Run
     
    1. nasm -f elf hello.asm && ld -s -o hello hello.o && ./hello
-   2. nasm -fmacho64 hello.asm && gcc hello.o && ./a.out
+   2. nasm -fmacho64 hello.asm && gcc hello.o && ./hello.out
