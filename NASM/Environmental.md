@@ -1,4 +1,4 @@
 # Environmental Setup
 
  
- -- sudo apt-get install nasm
+ [x] sudo apt-get install nasm
