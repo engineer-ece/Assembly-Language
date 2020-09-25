@@ -3,7 +3,7 @@
 
 1. [Introduction](https://github.com/engineer-ece/Assembly-Language/blob/master/NASM/introduction.md)
 2. [Environmental Setup](https://github.com/engineer-ece/Assembly-Language/blob/master/NASM/Environmental.md) 
-3. [Basic Syntax]()
+3. [Basic Syntax](https://github.com/engineer-ece/Assembly-Language/blob/master/NASM/syntax.md)
 4. [Memory Segments]()
 5. [Registers]()
 6. [System Calls]()
