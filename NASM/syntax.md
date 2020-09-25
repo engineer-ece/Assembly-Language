@@ -14,6 +14,6 @@
 
   The syntax for declaring data section is - 
 
-  ### "section.data"
+  ##### section.data
 
  
