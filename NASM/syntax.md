@@ -31,9 +31,11 @@
 
     The syntax for declaring text section is - 
   
-    ```section.text
+    ```
+    section.text
           global _start
-       _start:```
+       _start:
+    ```
 
 ## Comments
 
