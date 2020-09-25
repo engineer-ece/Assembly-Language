@@ -34,7 +34,7 @@
     ```
     section.text
           global _start
-       _start:
+    _start:
     ```
 
 ## Comments
