@@ -1,8 +1,8 @@
 # Assembly-Language
  ## NASM  [Netwide Assembler]
 
-1. Introduction
-2. Environmental Setup - sudo apt-get install nasm
+1. [Introduction]("https://github.com/engineer-ece/Assembly-Language/NASM/introduction.md")
+2. Environmental Setup 
 3. Basic Syntax
 4. Memory Segments
 5. Registers
