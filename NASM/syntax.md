@@ -13,7 +13,6 @@
 3. You can declare various constant values, file names, or buffer size, etc., in this section.
 
   The syntax for declaring data section is - 
-
-  ##### section.data
+  `section.data`
 
  
